@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import TodoItems from "./TodoItems";
 import "./ToDoList.css";
-import FlipMove from "react-flip-move";
+
 
 class TodoList extends Component {
     constructor(props) {
@@ -52,7 +52,7 @@ class TodoList extends Component {
             <div className='header'>
                 <form onSubmit={this.addItem}>
                     <input ref={(a) => this._inputElement =a}
-                     placeholder='enter task'>
+                     placeholder='Enter Task'>
                     </input>
                     <button type='submit'>Add Task</button>
                 </form>
