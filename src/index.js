@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <p>TO-DO</p>
+    <p><b>Task List</b></p>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
